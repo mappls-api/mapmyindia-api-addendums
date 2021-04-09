@@ -62,8 +62,51 @@ https://maps.mapmyindia.com/{search-keywords}/near/xx.xxxxx,yy.yyyyy
 | Grocery | https://maps.mapmyindia.com/grocery/near/28.5454,77.45445 |
 | Medical equipment | https://maps.mapmyindia.com/medical%20equipment/near/28.5454,77.45445 |
 
+<br><br>
+
+## 2. Get Directions
+<br>
 
 
+### Introduction
+Obtain directions between two locations or find directions among a set of places using MapmyIndia’s direction widget.
+<br><br>
+
+### URL
+```groovy
+https://maps.mapmyindia.com/direction?places=xx.xxxxx,yy.yyyyy;{elocid}
+```
+<br>
+
+### Base URL
+```
+https://maps.mapmyindia.com/direction?
+```
+
+
+### URL Parameters
+Below are the possible combinations of URL parameters
+
+1. `xx.xxxxx,yy.yyyyy;elocid`: Distance between a Lat/Long pair and a Place id (eloc).
+2. `elocid;xx.xxxxx,yy.yyyyy`: Distance between a Place id (eloc) and a Lat/Long pair.
+3. `xx.xxxxx,yy.yyyyy;xx.xxxxx,yy.yyyyy`: Distance between two Lat/Long pairs.
+4. `xx.xxxxx,yy.yyyyy;xx.xxxxx,yy.yyyyy`: Distance between two eloc Ids.
+5. `xx.xxxxx,yy.yyyyy,ABC place name;xx.xxxxx,yy.yyyyy,XYZ place name`: Distance between two Lat/Long pairs with place names.
+<br><br>
+
+### Sample URL with Possible Combinations
+<br>
+
+|URL Parameters possible combinations  | Sample URLs |
+| --- | --- |
+| Place ID(eLoc) to Place ID(eLoc) | https://maps.mapmyindia.com/direction?places=D9VKZQ;MMI000 |
+| lat/long to lat/long (with place names) | https://maps.mapmyindia.com/direction?places=28.550716,77.268928,MapmyIndia%20Head%20Office%20New%20Delhi%3B28.613058%2C77.227738%2CIndia%20Gate |
+| lat/long to lat/long | https://maps.mapmyindia.com/direction?places=28.5503,77.2502;28.5507,77.2689 |
+| lat/long to eLoc | https://maps.mapmyindia.com/direction?places=28.65656,77.989898;mmi000 |
+| eLoc to lat/long | https://maps.mapmyindia.com/direction?places=mmi000;28.5400,77.2592 |
+<br><br>
+
+Note: Users can append more eLocs or Lat/Long to the url to add as via points and find directions
 
 
 
