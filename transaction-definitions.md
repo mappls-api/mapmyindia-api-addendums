@@ -1,4 +1,4 @@
-![MapmyIndia APIs](https://www.mapmyindia.com/api/img/mapmyindia-api.png)
+[<img src="https://www.mapmyindia.com/api/img/mapmyindia-api.png" height="40"/> </p>](https://www.mapmyindia.com/api)
 
 # Transaction Definitions
 
