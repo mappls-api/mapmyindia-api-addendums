@@ -110,6 +110,17 @@ Note: Users can append more eLocs or Lat/Long to the url to add as via points an
 
 
 
+## 3. Report
+Report issues across different categories related to traffic issues, safety issues, community issues, and others using the MapmyIndia Move platform.
+
+### URL
+```groovy
+https://maps.mapmyindia.com/report
+```
+
+Note: Currently, this feature requires the user to login.
+
+
 
 <br><br>
 	
