@@ -121,7 +121,8 @@ https://maps.mapmyindia.com/report
 Note: Currently, this feature requires the user to login.
 
 Report by clicking the Plus button on right bottom of the screen.
-Please refer the below image
+Please refer the below image.
+
 ![](https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/report1.png)
 
 
