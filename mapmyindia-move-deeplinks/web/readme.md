@@ -111,7 +111,11 @@ Note: Users can append more eLocs or Lat/Long to the url to add as via points an
 
 
 ## 3. Report
+<br>
+
+### Introduction
 Report issues across different categories related to traffic issues, safety issues, community issues, and others using the MapmyIndia Move platform.
+<br><br>
 
 ### URL
 ```groovy
@@ -119,11 +123,34 @@ https://maps.mapmyindia.com/report
 ```
 
 Note: Currently, this feature requires the user to login.
+<br><br>
 
 Report by clicking the Plus button on right bottom of the screen.
 Please refer the below image.
 
 ![](https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/report1.png)
+
+
+Select category and sub-category of the issue being reported.
+
+![](https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/report2.gif)
+<br><br>
+![](https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/report3.gif)
+<br><br>
+After selecting the subcategory of report , add the location of the issue. Users can add current location or change the location by dragging and dropping the given marker.
+
+Users can add some attachments and comments if needed to lay out a detailed summary and click on done to successfully submit my report.
+Pleaese refer the below illustration.
+
+![](https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/report4.gif)
+<br><br>
+
+### Sample sharable URL
+After the report submission the user can share the same with other users.
+
+```
+https://maps.mapmyindia.com/report/1T182A/abfc3b7b-89ad-475a-978a-bcb763a76298
+```
 
 
 
