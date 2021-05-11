@@ -133,16 +133,16 @@ Please refer the below image.
 
 Select category and sub-category of the issue being reported.
 
-![](https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/report2.gif)
+![]()
 <br><br>
-![](https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/report3.gif)
+![]()
 <br><br>
 After selecting the subcategory of report , add the location of the issue. Users can add current location or change the location by dragging and dropping the given marker.
 
 Users can add some attachments and comments if needed to lay out a detailed summary and click on done to successfully submit my report.
 Pleaese refer the below illustration.
 
-![](https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/report4.gif)
+![]()
 <br><br>
 
 ### Sample sharable URL
