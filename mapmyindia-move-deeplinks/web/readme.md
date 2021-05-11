@@ -125,6 +125,8 @@ https://maps.mapmyindia.com/report
 Note: Currently, this feature requires the user to login.
 <br><br>
 
+### Steps to Report
+
 Report by clicking the Plus button on right bottom of the screen.
 Please refer the below image.
 
@@ -133,16 +135,16 @@ Please refer the below image.
 
 Select category and sub-category of the issue being reported.
 
-![]()
+![](https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/report2.gif)
 <br><br>
-![]()
+![](https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/report3.gif)
 <br><br>
 After selecting the subcategory of report , add the location of the issue. Users can add current location or change the location by dragging and dropping the given marker.
 
 Users can add some attachments and comments if needed to lay out a detailed summary and click on done to successfully submit my report.
 Pleaese refer the below illustration.
 
-![]()
+![](https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/report4.gif)
 <br><br>
 
 ### Sample sharable URL
@@ -150,6 +152,62 @@ After the report submission the user can share the same with other users.
 
 ```
 https://maps.mapmyindia.com/report/1T182A/abfc3b7b-89ad-475a-978a-bcb763a76298
+```
+<br><br>
+## 3. Get eLoc
+<br>
+
+### Introduction
+Transform any complex address into a shareable 6 character code using MapmyIndia’s Get eLoc. With this users can create an eLoc for any address or get eLoc of the same.
+<br><br>
+
+Note : Currently, this feature requires the user to login.
+
+### URL
+```groovy
+https://maps.mapmyindia.com/get-eLoc
+```
+
+### Steps to Get eLoc
+
+1. Search for an address/place
+2. You may also move the map to select the exact location
+3. Click on the current location marker to select from the map if require current location
+4. Then click on show eLoc
+
+Pleaese refer the below illustration.
+
+![](https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/geteloc1.gif)
+<br><br>
+
+### Sample sharable URL
+After the eLoc has been created/fetched for the place. You can share the same with the community or other MapmyIndia users.
+
+```
+https://maps.mapmyindia.com/eloc/X5OCK9
+```
+<br><br>
+
+## 4. Share Place (eLoc)
+<br>
+
+### Introduction
+eLoc is a 6 character digital address by MapmyIndia which simplifies complex addresses.
+For e.g - 
+eLoc for the address “Indigo Plast India Pvt Ltd” is 3BL91M
+With this users can share any place as a 6 digit character code to the community or other users.
+
+Please refer the below illustration.
+
+![](https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/shareeloc1.gif)
+<br><br>
+
+### Sample sharable URL
+You can share any place as a 6 digit character code with the community or other MapmyIndia users.
+
+```
+https://maps.mapmyindia.com/eloc/9ADJ1X 
+http://eloc.me/OFL6O6
 ```
 
 
