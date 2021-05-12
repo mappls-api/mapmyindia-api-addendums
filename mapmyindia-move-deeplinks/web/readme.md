@@ -31,6 +31,9 @@ https://maps.mapmyindia.com/{search-keywords}/near/xx.xxxxx,yy.yyyyy
 | --- | --- |
 | Corona isolation | https://maps.mapmyindia.com/corona%20isolation/near/28.5454,77.45445 |
 | Corona testing | https://maps.mapmyindia.com/corona%20testing/near/28.5454,77.45445 |
+| Corona sample | https://maps.mapmyindia.com/corona%20sample/near/28.5454,77.45445 |
+| Veccination Centers | https://maps.mapmyindia.com/vaccination%20centers/near/28.5454,77.45445 |
+| Corona Treatment | https://maps.mapmyindia.com/corona%20treatment/near/28.5454,77.45445 |
 | Coffee | https://maps.mapmyindia.com/coffee/near/28.5454,77.45445 |
 | Restaurants | https://maps.mapmyindia.com/restaurants/near/28.5454,77.45445 |
 | Pubs & bars | https://maps.mapmyindia.com/pubs%20%26%20bars/near/28.5454,77.45445 |
@@ -55,7 +58,6 @@ https://maps.mapmyindia.com/{search-keywords}/near/xx.xxxxx,yy.yyyyy
 | Monuments | https://maps.mapmyindia.com/monuments/near/28.5454,77.45445 |
 | College | https://maps.mapmyindia.com/college/near/28.5454,77.45445 |
 | School | https://maps.mapmyindia.com/school/near/28.5454,77.45445 |
-| Corona sample | https://maps.mapmyindia.com/corona%20sample/near/28.5454,77.45445 |
 | Hunger relief centre | https://maps.mapmyindia.com/hunger%20relief%20centre/near/28.5454,77.45445 |
 | Clinic | https://maps.mapmyindia.com/clinic/near/28.5454,77.45445 |
 | Food | https://maps.mapmyindia.com/food/near/28.5454,77.45445 |
