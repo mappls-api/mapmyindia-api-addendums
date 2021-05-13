@@ -89,11 +89,11 @@ https://maps.mapmyindia.com/direction?
 ### URL Parameters
 Below are the possible combinations of URL parameters
 
-1. `xx.xxxxx,yy.yyyyy;elocid`: Distance between a Lat/Long pair and a Place id (eloc).
-2. `elocid;xx.xxxxx,yy.yyyyy`: Distance between a Place id (eloc) and a Lat/Long pair.
-3. `xx.xxxxx,yy.yyyyy;xx.xxxxx,yy.yyyyy`: Distance between two Lat/Long pairs.
-4. `xx.xxxxx,yy.yyyyy;xx.xxxxx,yy.yyyyy`: Distance between two eloc Ids.
-5. `xx.xxxxx,yy.yyyyy,ABC place name;xx.xxxxx,yy.yyyyy,XYZ place name`: Distance between two Lat/Long pairs with place names.
+1. `xx.xxxxx,yy.yyyyy;elocid`: To get directions between a Lat/Long pair and a Place id (eloc).
+2. `elocid;xx.xxxxx,yy.yyyyy`: To get directions between a Place id (eloc) and a Lat/Long pair.
+3. `xx.xxxxx,yy.yyyyy;xx.xxxxx,yy.yyyyy`: To get directions between two Lat/Long pairs.
+4. `xx.xxxxx,yy.yyyyy;xx.xxxxx,yy.yyyyy`: To get directions between two eloc Ids.
+5. `xx.xxxxx,yy.yyyyy,ABC place name;xx.xxxxx,yy.yyyyy,XYZ place name`: To get directions between two Lat/Long pairs with place names as pre-defined labels in the directions UI page.
 <br><br>
 
 ### Sample URL with Possible Combinations
