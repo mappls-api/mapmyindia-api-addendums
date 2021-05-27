@@ -1,7 +1,7 @@
 [<img src="https://www.mapmyindia.com/api/img/mapmyindia-api.png" height="40"/> </p>](https://www.mapmyindia.com/api)
 
 
-# Embeddable Deep Links for MapmyIndia Move
+# Embeddable Deep Links from MapmyIndia Move
 
 ## 1. Nearby Facilities
 
