@@ -4,8 +4,6 @@
 # Embeddable Deep Links for MapmyIndia Move
 
 ## 1. Nearby Facilities
-<br>
-
 
 ### Introduction
 Get access to your nearby amenities with MapmyIndia’s nearby utility.
@@ -66,9 +64,13 @@ https://maps.mapmyindia.com/{search-keywords}/near/xx.xxxxx,yy.yyyyy
 
 <br><br>
 
-## 2. Get Directions
+### Sample sharable URL
+```
+https://maps.mapmyindia.com/atms/near/28.5454,77.45445
+```
 <br>
 
+## 2. Get Directions
 
 ### Introduction
 Obtain directions between two locations or find directions among a set of places using MapmyIndia’s direction widget.
@@ -110,10 +112,9 @@ Below are the possible combinations of URL parameters
 
 Note: Users can append more eLocs or Lat/Long to the url to add as via points and find directions
 
-
+<br>
 
 ## 3. Report
-<br>
 
 ### Introduction
 Report issues across different categories related to traffic issues, safety issues, community issues, and others using the MapmyIndia Move platform.
@@ -132,21 +133,26 @@ Note: Currently, this feature requires the user to login.
 Report by clicking the Plus button on right bottom of the screen.
 Please refer the below image.
 
-![](https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/report1.png)
+<kbd><img src="https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/report1.png">
+</kbd>
 
-
+<br>
 Select category and sub-category of the issue being reported.
+<br><br>
 
-![](https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/report2.gif)
-<br><br>
-![](https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/report3.gif)
-<br><br>
+Select category            |  Select sub-category
+:-------------------------:|:-------------------------:
+|<img src="https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/report3.gif" width=280 height=350>|<img src="https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/report2.gif" width=280 height=350>|
+
+<br>
 After selecting the subcategory of report , add the location of the issue. Users can add current location or change the location by dragging and dropping the given marker.
 
 Users can add some attachments and comments if needed to lay out a detailed summary and click on done to successfully submit my report.
 Pleaese refer the below illustration.
-
-![](https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/report4.gif)
+<br><br>
+<p align=center>
+<kbd><img src="https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/report4.gif" width=300>
+</kbd></p>
 <br><br>
 
 ### Sample sharable URL
@@ -179,7 +185,8 @@ https://maps.mapmyindia.com/get-eLoc
 
 Pleaese refer the below illustration.
 
-![](https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/geteloc1.gif)
+<kbd><img src="https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/geteloc1.gif">
+</kbd>
 <br><br>
 
 ### Sample sharable URL
@@ -201,7 +208,8 @@ With this users can share any place as a 6 digit character code to the community
 
 Please refer the below illustration.
 
-![](https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/shareeloc1.gif)
+<kbd><img src="https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/shareeloc1.gif">
+</kbd>
 <br><br>
 
 ### Sample sharable URL
@@ -211,8 +219,6 @@ You can share any place as a 6 digit character code with the community or other 
 https://maps.mapmyindia.com/eloc/9ADJ1X 
 http://eloc.me/OFL6O6
 ```
-
-
 
 <br><br>
 	
