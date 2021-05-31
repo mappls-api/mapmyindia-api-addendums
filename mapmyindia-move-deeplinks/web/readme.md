@@ -277,6 +277,7 @@ https://maps.mapmyindia.com/corona?safety_alert
 ```
 
 <br>
+
 Please refer the below illustration.
 
 <kbd><img src="https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/safetycheck.gif">
