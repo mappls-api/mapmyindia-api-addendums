@@ -239,7 +239,7 @@ https://maps.mapmyindia.com/@xx.xxxxx,yy.yyyyy
 
 Please refer the below illustration.
 
-<kbd><img src="https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/shareeloc1.gif">
+<kbd><img src="https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/sharelatlng.gif">
 </kbd>
 <br><br>
 
