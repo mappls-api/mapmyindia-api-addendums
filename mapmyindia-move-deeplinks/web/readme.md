@@ -205,7 +205,7 @@ eLoc is a 6 character digital address by MapmyIndia which simplifies complex add
 For e.g - 
 eLoc for the address “Indigo Plast India Pvt Ltd” is 3BL91M
 With this users can share any place as a 6 digit character code to the community or other users.
-
+<br><br>
 Please refer the below illustration.
 
 <kbd><img src="https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/shareeloc1.gif">
@@ -221,6 +221,78 @@ http://eloc.me/OFL6O6
 ```
 
 <br><br>
+
+## 5. COVID Dashboard
+<br>
+
+### Introduction
+Useful and free-to-integrate geo-visualized COVID-19 dashboard with stats , map search guides, and reporting tools.
+<br><br>
+### URL
+```
+https://maps.mapmyindia.com/corona
+```
+
+Please refer the below illustration.
+
+<kbd><img src="https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/coviddashboard.gif">
+</kbd>
+<br><br>
+
+
+### Sample sharable URL
+Users can turn on multiple layers and share the dashboard  to other users.
+
+With default layer selected
+```
+https://maps.mapmyindia.com/corona
+```
+<br>
+
+With 3 layers selected - Containment zones, Testing Lab, Treatment Centre
+<br>
+
+```
+https://maps.mapmyindia.com/corona?containment_zone_gradient,corona_testing_centre,corona_treatment_centre
+```
+
+<br><br>
+
+## 6. COVID Safety Check
+<br>
+
+### Introduction
+Widget to check whether you are in or near a containment zone.Your family or friends could be near a containment zone. Share this tool and keep them updated with the nearest corona related facilities.
+Also, get to know the nearest
+- Corona Treatment Centre
+- Sample Collection Centre
+- Quarantine Centre
+<br>
+
+### URL
+
+
+```
+https://maps.mapmyindia.com/corona?safety_alert
+```
+
+<br>
+Please refer the below illustration.
+
+<kbd><img src="https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/safetycheck.gif">
+</kbd>
+<br><br>
+
+
+### Sample sharable URL
+<br>
+
+```
+https://maps.mapmyindia.com/corona?safety_alert
+```
+
+<br><br>
+
 	
  For any queries and support, please contact: 
 
