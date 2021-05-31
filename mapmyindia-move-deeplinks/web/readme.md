@@ -222,7 +222,37 @@ http://eloc.me/OFL6O6
 
 <br><br>
 
-## 5. COVID Dashboard
+## 5. Share Place (lat/lng)
+<br>
+
+### Introduction
+Share any place using its latitude and longitude coordinates.
+Users can append the lat/lng to the base url and find a place and share the same.
+
+
+
+### URL
+```groovy
+https://maps.mapmyindia.com/@xx.xxxxx,yy.yyyyy
+```
+<br>
+
+Please refer the below illustration.
+
+<kbd><img src="https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/shareeloc1.gif">
+</kbd>
+<br><br>
+
+### Sample sharable URL
+<br>
+
+```
+https://maps.mapmyindia.com/@28.5503,77.2502
+```
+
+<br><br>
+
+## 6. COVID Dashboard
 <br>
 
 ### Introduction
@@ -258,7 +288,7 @@ https://maps.mapmyindia.com/corona?containment_zone_gradient,corona_testing_cent
 
 <br><br>
 
-## 6. COVID Safety Check
+## 7. COVID Safety Check
 <br>
 
 ### Introduction
