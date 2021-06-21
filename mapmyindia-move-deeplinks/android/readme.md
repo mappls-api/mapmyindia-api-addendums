@@ -24,7 +24,7 @@ https://maps.mapmyindia.com/get-eLoc
 3. Click on the current location marker to select from the map if require current location
 4. Then click on show eLoc
 
-Pleaese refer the below illustration.
+Please refer the below illustration.
 <p align=center>
 <kbd><img src="https://github.com/MapmyIndia/mapmyindia-api-addendums/blob/main/docs/images/android/geteLocandroid.gif" width=290 height=585>
 </kbd></p>
@@ -101,7 +101,40 @@ https://maps.mapmyindia.com/corona?containment_zone_gradient,corona_testing_cent
 
 <br><br>
 
-## 4.  COVID Safety Check
+## 4.  Navigation
+<br>
+
+### Introduction
+<br>
+
+Integrate the navigation utility to your application to get turn-by-turn directions to a location.
+
+<br>
+
+### URL
+```groovy
+mapmyindia://navigation?places=xx.xxxxx,yy.yyyyy,{start-name};kk.kkkkk,mm.mmmmm,{destination-name}
+```
+<br>
+
+
+### URL Parameters
+1. `start-name`: Starting location name
+2. `destination-name`: Destination location name
+3. `xx.xxxxx,yy.yyyyy`: Lat/Long pair of starting location
+4. `kk.kkkkk,mm.mmmmm`: Lat/Long pair of destination location
+<br><br>
+
+### Sample calling URL
+<br>
+
+```
+mapmyindia://navigation?places=26.884649,75.801128,Nehru Place;28.566677,77.234995,Mool Chand
+```
+
+<br><br>
+
+## 5.  COVID Safety Check
 <br>
 
 ### Introduction
