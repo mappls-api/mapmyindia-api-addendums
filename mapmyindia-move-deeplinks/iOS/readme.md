@@ -114,7 +114,7 @@ Integrate the navigation utility to your application to get turn-by-turn directi
 ### URL
 
 ```groovy
-com.mapmyindia.move://navigation?d_lat=kk.kkkkk&d_lng=mm.mmmmm&c_lat=xx.xxxxx&c_lng=yy.yyyyy&placeName={destination-name}&{start-name}
+com.mapmyindia.move://navigation?d_lat=kk.kkkkk&d_lng=mm.mmmmm&s_lat=xx.xxxxx&s_lng=yy.yyyyy&placeName={destination-name}&{start-name}
 ```
 <br>
 
