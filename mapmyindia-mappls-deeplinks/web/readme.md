@@ -1,18 +1,18 @@
-[<img src="https://www.mapmyindia.com/api/img/mapmyindia-api.png" height="40"/> </p>](https://www.mapmyindia.com/api)
+[<img src="https://cdn.mapmyindia.com/mappls_web/logos/svg/mappls.svg" height="40"/> </p>](https://www.mapmyindia.com/api)
 
 
-# Embeddable Deep Links from MapmyIndia Move
+# Embeddable Deep Links from Mappls App
 
 ## 1. Nearby Facilities
 
 ### Introduction
-Get access to your nearby amenities with MapmyIndia’s nearby utility.
+Get access to your nearby amenities with Mappls’s nearby utility.
 <br><br>
 
 
 ### URL
 ```groovy
-https://maps.mapmyindia.com/{search-keywords}/near/xx.xxxxx,yy.yyyyy
+https://mappls.com/{search-keywords}/near/xx.xxxxx,yy.yyyyy
 ```
 <br>
 
@@ -27,74 +27,74 @@ https://maps.mapmyindia.com/{search-keywords}/near/xx.xxxxx,yy.yyyyy
 
 | Category Keywords | Sample URLs |
 | --- | --- |
-| Corona isolation | https://maps.mapmyindia.com/corona%20isolation/near/28.5454,77.45445 |
-| Corona testing | https://maps.mapmyindia.com/corona%20testing/near/28.5454,77.45445 |
-| Corona sample | https://maps.mapmyindia.com/corona%20sample/near/28.5454,77.45445 |
-| Veccination Centers | https://maps.mapmyindia.com/vaccination%20centers/near/28.5454,77.45445 |
-| Corona Treatment | https://maps.mapmyindia.com/corona%20treatment/near/28.5454,77.45445 |
-| Coffee | https://maps.mapmyindia.com/coffee/near/28.5454,77.45445 |
-| Restaurants | https://maps.mapmyindia.com/restaurants/near/28.5454,77.45445 |
-| Pubs & bars | https://maps.mapmyindia.com/pubs%20%26%20bars/near/28.5454,77.45445 |
-| Atms | https://maps.mapmyindia.com/atms/near/28.5454,77.45445 |
-| Pharmacy | https://maps.mapmyindia.com/pharmacy/near/28.5454,77.45445 |
-| Parking | https://maps.mapmyindia.com/parking/near/28.5454,77.45445 |
-| Ev charging | https://maps.mapmyindia.com/ev%20charging/near/28.5454,77.45445 |
-| Charging stations | https://maps.mapmyindia.com/charging%20stations/near/28.5454,77.45445 |
-| Petrol pump | https://maps.mapmyindia.com/petrol%20pump/near/28.5454,77.45445 |
-| Transports | https://maps.mapmyindia.com/transports/near/28.5454,77.45445 |
-| Entertainment | https://maps.mapmyindia.com/entertainment/near/28.5454,77.45445 |
-| Hotels | https://maps.mapmyindia.com/hotels/near/28.5454,77.45445 |
-| Shopping | https://maps.mapmyindia.com/shopping/near/28.5454,77.45445 |
-| Groceries | https://maps.mapmyindia.com/groceries/near/28.5454,77.45445 |
-| Hospitals | https://maps.mapmyindia.com/hospitals/near/28.5454,77.45445 |
-| Police stations | https://maps.mapmyindia.com/police%20stations/near/28.5454,77.45445 |
-| Post office | https://maps.mapmyindia.com/post%20office/near/28.5454,77.45445 |
-| Banks | https://maps.mapmyindia.com/banks/near/28.5454,77.45445 |
-| Spas | https://maps.mapmyindia.com/spas/near/28.5454,77.45445 |
-| Toilets | https://maps.mapmyindia.com/toilets/near/28.5454,77.45445 |
-| CNG station | https://maps.mapmyindia.com/cng%20station/near/28.5454,77.45445 |
-| Monuments | https://maps.mapmyindia.com/monuments/near/28.5454,77.45445 |
-| College | https://maps.mapmyindia.com/college/near/28.5454,77.45445 |
-| School | https://maps.mapmyindia.com/school/near/28.5454,77.45445 |
-| Hunger relief centre | https://maps.mapmyindia.com/hunger%20relief%20centre/near/28.5454,77.45445 |
-| Clinic | https://maps.mapmyindia.com/clinic/near/28.5454,77.45445 |
-| Food | https://maps.mapmyindia.com/food/near/28.5454,77.45445 |
-| Grocery | https://maps.mapmyindia.com/grocery/near/28.5454,77.45445 |
-| Medical equipment | https://maps.mapmyindia.com/medical%20equipment/near/28.5454,77.45445 |
+| Corona isolation | https://mappls.com/corona%20isolation/near/28.5454,77.45445 |
+| Corona testing | https://mappls.com/corona%20testing/near/28.5454,77.45445 |
+| Corona sample | https://mappls.com/corona%20sample/near/28.5454,77.45445 |
+| Veccination Centers | https://mappls.com/vaccination%20centers/near/28.5454,77.45445 |
+| Corona Treatment | https://mappls.com/corona%20treatment/near/28.5454,77.45445 |
+| Coffee | https://mappls.com/coffee/near/28.5454,77.45445 |
+| Restaurants | https://mappls.com/restaurants/near/28.5454,77.45445 |
+| Pubs & bars | https://mappls.com/pubs%20%26%20bars/near/28.5454,77.45445 |
+| Atms | https://mappls.com/atms/near/28.5454,77.45445 |
+| Pharmacy | https://mappls.com/pharmacy/near/28.5454,77.45445 |
+| Parking | https://mappls.com/parking/near/28.5454,77.45445 |
+| Ev charging | https://mappls.com/ev%20charging/near/28.5454,77.45445 |
+| Charging stations | https://mappls.com/charging%20stations/near/28.5454,77.45445 |
+| Petrol pump | https://mappls.com/petrol%20pump/near/28.5454,77.45445 |
+| Transports | https://mappls.com/transports/near/28.5454,77.45445 |
+| Entertainment | https://mappls.com/entertainment/near/28.5454,77.45445 |
+| Hotels | https://mappls.com/hotels/near/28.5454,77.45445 |
+| Shopping | https://mappls.com/shopping/near/28.5454,77.45445 |
+| Groceries | https://mappls.com/groceries/near/28.5454,77.45445 |
+| Hospitals | https://mappls.com/hospitals/near/28.5454,77.45445 |
+| Police stations | https://mappls.com/police%20stations/near/28.5454,77.45445 |
+| Post office | https://mappls.com/post%20office/near/28.5454,77.45445 |
+| Banks | https://mappls.com/banks/near/28.5454,77.45445 |
+| Spas | https://mappls.com/spas/near/28.5454,77.45445 |
+| Toilets | https://mappls.com/toilets/near/28.5454,77.45445 |
+| CNG station | https://mappls.com/cng%20station/near/28.5454,77.45445 |
+| Monuments | https://mappls.com/monuments/near/28.5454,77.45445 |
+| College | https://mappls.com/college/near/28.5454,77.45445 |
+| School | https://mappls.com/school/near/28.5454,77.45445 |
+| Hunger relief centre | https://mappls.com/hunger%20relief%20centre/near/28.5454,77.45445 |
+| Clinic | https://mappls.com/clinic/near/28.5454,77.45445 |
+| Food | https://mappls.com/food/near/28.5454,77.45445 |
+| Grocery | https://mappls.com/grocery/near/28.5454,77.45445 |
+| Medical equipment | https://mappls.com/medical%20equipment/near/28.5454,77.45445 |
 
 <br><br>
 
 ### Sample sharable URL
 ```
-https://maps.mapmyindia.com/atms/near/28.5454,77.45445
+https://mappls.com/atms/near/28.5454,77.45445
 ```
 <br>
 
 ## 2. Get Directions
 
 ### Introduction
-Obtain directions between two locations or find directions among a set of places using MapmyIndia’s direction widget.
+Obtain directions between two locations or find directions among a set of places using Mappls’s direction widget.
 <br><br>
 
 ### URL
 ```groovy
-https://maps.mapmyindia.com/direction?places=xx.xxxxx,yy.yyyyy;{elocid}
+https://mappls.com/direction?places=xx.xxxxx,yy.yyyyy;{mappls pin}
 ```
 <br>
 
 ### Base URL
 ```
-https://maps.mapmyindia.com/direction?
+https://mappls.com/direction?
 ```
 
 
 ### URL Parameters
 Below are the possible combinations of URL parameters
 
-1. `xx.xxxxx,yy.yyyyy;elocid`: To get directions between a Lat/Long pair and a Place id (eloc).
-2. `elocid;xx.xxxxx,yy.yyyyy`: To get directions between a Place id (eloc) and a Lat/Long pair.
+1. `xx.xxxxx,yy.yyyyy;Mappls Pin`: To get directions between a Lat/Long pair and a Place id (Mappls Pin).
+2. `Mappls Pin;xx.xxxxx,yy.yyyyy`: To get directions between a Place id (Mappls Pin) and a Lat/Long pair.
 3. `xx.xxxxx,yy.yyyyy;xx.xxxxx,yy.yyyyy`: To get directions between two Lat/Long pairs.
-4. `xx.xxxxx,yy.yyyyy;xx.xxxxx,yy.yyyyy`: To get directions between two eloc Ids.
+4. `xx.xxxxx,yy.yyyyy;xx.xxxxx,yy.yyyyy`: To get directions between two Mappls Pin.
 5. `xx.xxxxx,yy.yyyyy,ABC place name;xx.xxxxx,yy.yyyyy,XYZ place name`: To get directions between two Lat/Long pairs with place names as pre-defined labels in the directions UI page.
 <br><br>
 
@@ -103,26 +103,26 @@ Below are the possible combinations of URL parameters
 
 |URL Parameters possible combinations  | Sample URLs |
 | --- | --- |
-| Place ID(eLoc) to Place ID(eLoc) | https://maps.mapmyindia.com/direction?places=D9VKZQ;MMI000 |
-| lat/long to lat/long (with place names) | https://maps.mapmyindia.com/direction?places=28.550716,77.268928,MapmyIndia%20Head%20Office%20New%20Delhi%3B28.613058%2C77.227738%2CIndia%20Gate |
-| lat/long to lat/long | https://maps.mapmyindia.com/direction?places=28.5503,77.2502;28.5507,77.2689 |
-| lat/long to eLoc | https://maps.mapmyindia.com/direction?places=28.65656,77.989898;mmi000 |
-| eLoc to lat/long | https://maps.mapmyindia.com/direction?places=mmi000;28.5400,77.2592 |
+| Place ID(Mappls Pin) to Place ID(Mappls Pin) | https://mappls.com/direction?places=D9VKZQ;MMI000 |
+| lat/long to lat/long (with place names) | https://mappls.com/direction?places=28.550716,77.268928,MapmyIndia%20Head%20Office%20New%20Delhi%3B28.613058%2C77.227738%2CIndia%20Gate |
+| lat/long to lat/long | https://mappls.com/direction?places=28.5503,77.2502;28.5507,77.2689 |
+| lat/long to Mappls Pin | https://mappls.com/direction?places=28.65656,77.989898;mmi000 |
+| Mappls Pin to lat/long | https://mappls.com/direction?places=mmi000;28.5400,77.2592 |
 <br><br>
 
-Note: Users can append more eLocs or Lat/Long to the url to add as via points and find directions
+Note: Users can append more Mappls Pins or Lat/Long to the url to add as via points and find directions
 
 <br>
 
 ## 3. Report
 
 ### Introduction
-Report issues across different categories related to traffic issues, safety issues, community issues, and others using the MapmyIndia Move platform.
+Report issues across different categories related to traffic issues, safety issues, community issues, and others using the Mappls app platform.
 <br><br>
 
 ### URL
 ```groovy
-https://maps.mapmyindia.com/report
+https://mappls.com/report
 ```
 
 Note: Currently, this feature requires the user to login.
@@ -159,29 +159,29 @@ Pleaese refer the below illustration.
 After the report submission the user can share the same with other users.
 
 ```
-https://maps.mapmyindia.com/report/1T182A/abfc3b7b-89ad-475a-978a-bcb763a76298
+https://mappls.com/report/1T182A/abfc3b7b-89ad-475a-978a-bcb763a76298
 ```
 <br><br>
-## 3. Get eLoc
+## 3. Get Mappls Pin
 <br>
 
 ### Introduction
-Transform any complex address into a shareable 6 character code using MapmyIndia’s Get eLoc. With this users can create an eLoc for any address or get eLoc of the same.
+Transform any complex address into a shareable 6 character code using MapmyIndia’s Get Mappls Pin. With this users can create an Mappls Pin for any address or get Mappls Pin of the same.
 <br><br>
 
 Note : Currently, this feature requires the user to login.
 
 ### URL
 ```groovy
-https://maps.mapmyindia.com/get-eLoc
+https://mappls.com/get-pin
 ```
 
-### Steps to Get eLoc
+### Steps to Get Mappls Pin
 
 1. Search for an address/place
 2. You may also move the map to select the exact location
 3. Click on the current location marker to select from the map if require current location
-4. Then click on show eLoc
+4. Then click on show Mappls Pin
 
 Pleaese refer the below illustration.
 
@@ -190,20 +190,20 @@ Pleaese refer the below illustration.
 <br><br>
 
 ### Sample sharable URL
-After the eLoc has been created/fetched for the place. You can share the same with the community or other MapmyIndia users.
+After the Mappls Pin has been created/fetched for the place. You can share the same with the community or other Mappls users.
 
 ```
-https://maps.mapmyindia.com/eloc/X5OCK9
+https://mappls.com/X5OCK9
 ```
 <br><br>
 
-## 4. Share Place (eLoc)
+## 4. Share Place (Mappls Pin)
 <br>
 
 ### Introduction
-eLoc is a 6 character digital address by MapmyIndia which simplifies complex addresses.
+Mappls Pin is a 6 character digital address by Mappls which simplifies complex addresses.
 For e.g - 
-eLoc for the address “Indigo Plast India Pvt Ltd” is 3BL91M
+Mappls Pin for the address “Indigo Plast India Pvt Ltd” is 3BL91M
 With this users can share any place as a 6 digit character code to the community or other users.
 <br><br>
 Please refer the below illustration.
@@ -213,11 +213,10 @@ Please refer the below illustration.
 <br><br>
 
 ### Sample sharable URL
-You can share any place as a 6 digit character code with the community or other MapmyIndia users.
+You can share any place as a 6 digit character code with the community or other Mappls users.
 
 ```
-https://maps.mapmyindia.com/eloc/9ADJ1X 
-http://eloc.me/OFL6O6
+https://mappls.com/9ADJ1X 
 ```
 
 <br><br>
@@ -233,7 +232,7 @@ Users can append the lat/lng to the base url and find a place and share the same
 
 ### URL
 ```groovy
-https://maps.mapmyindia.com/@xx.xxxxx,yy.yyyyy
+https://mappls.com/@xx.xxxxx,yy.yyyyy
 ```
 <br>
 
@@ -247,7 +246,7 @@ Please refer the below illustration.
 <br>
 
 ```
-https://maps.mapmyindia.com/@28.5503,77.2502
+https://mappls.com/@28.5503,77.2502
 ```
 
 <br><br>
@@ -260,7 +259,7 @@ Useful and free-to-integrate geo-visualized COVID-19 dashboard with stats , map 
 <br><br>
 ### URL
 ```
-https://maps.mapmyindia.com/corona
+https://mappls.com/corona
 ```
 
 Please refer the below illustration.
@@ -275,7 +274,7 @@ Users can turn on multiple layers and share the dashboard  to other users.
 
 With default layer selected
 ```
-https://maps.mapmyindia.com/corona
+https://mappls.com/corona
 ```
 <br>
 
@@ -283,7 +282,7 @@ With 3 layers selected - Containment zones, Testing Lab, Treatment Centre
 <br>
 
 ```
-https://maps.mapmyindia.com/corona?containment_zone_gradient,corona_testing_centre,corona_treatment_centre
+https://mappls.com/corona?containment_zone_gradient,corona_testing_centre,corona_treatment_centre
 ```
 
 <br><br>
@@ -303,7 +302,7 @@ Also, get to know the nearest
 
 
 ```
-https://maps.mapmyindia.com/corona?safety_alert
+https://mappls.com/corona?safety_alert
 ```
 
 <br>
@@ -319,7 +318,36 @@ Please refer the below illustration.
 <br>
 
 ```
-https://maps.mapmyindia.com/corona?safety_alert
+https://mappls.com/corona?safety_alert
+```
+
+<br><br>
+
+## 8. Rate and Review
+<br>
+
+### Introduction
+Users can Rate and Review any place that they have visited and they can also share the place review with their social network.
+
+<br>
+
+### URL
+
+
+```
+www.mappls.com/review/<mappls-pin>/<reviewID>
+```
+
+<br>
+
+
+
+
+### Sample sharable URL
+<br>
+
+```
+https://www.mappls.com/review/MMI000/bed7a947-f813-41cf-89c9-ec522b416954
 ```
 
 <br><br>
@@ -327,7 +355,7 @@ https://maps.mapmyindia.com/corona?safety_alert
 	
  For any queries and support, please contact: 
 
-[<img src="https://www.mapmyindia.com/images/logo.png" height="40"/> </p>](https://www.mapmyindia.com/api)
+[<img src="https://cdn.mapmyindia.com/mappls_web/logos/svg/mappls.svg" height="40"/> </p>](https://about.mappls.com/api/)
 Email us at [apisupport@mapmyindia.com](mailto:apisupport@mapmyindia.com)
 
 
