@@ -101,3 +101,113 @@ Here are some ideal places and scenarios where you can effectively use this ifra
 
 The Mappls Places Iframe Widget's versatility makes it a valuable tool for any website or application that aims to provide location-related information, improve user engagement, and enhance the overall user experience. Its ease of integration and customization options make it suitable for a wide range of industries and purposes.
 
+
+[<img src="https://cdn.mapmyindia.com/mappls_web/logos/svg/mappls.svg" height="40"/> </p>](https://www.about.mappls.com/api)
+
+
+## 2. Embed Immersive & Interactive 3D Metaverse Maps for Cricket World Cup Venues with Mappls
+
+### Introduction
+
+Introducing MapmyIndia's cutting-edge iFrame Embeddable Widget, an **Immersive and 3D metaverse maps** for **Cricket World Cup** venues. Now, you can seamlessly integrate these captivating 3D Metaverse maps into your website with a single line of code, bringing the excitement of cricket's grandest stages directly to your audience. Get ready to engage and delight your users like never before with MapmyIndia's immersive technology.
+
+Let your audience explore the venues at their own pace. They can **zoom in, rotate, and interact with the maps** to get a comprehensive view of the Cricet World Cup Stadiums.
+
+
+**It can be easily embedded on your website by following below steps.**
+
+**Embed Ahmedabad, Narendra Modi Stadium:**
+```groovy
+<iframe src="https://embed.mappls.com/immersive/12d1ce?token=<TOKEN>&placeDetails=true&castShadow=false&rotate=true" width="1000" height="1000"></iframe>
+```
+1.  Customize the width and height attributes as needed to fit your website's design and layout.
+2.  Copy the entire iframe code provided by the source website.
+3.  Go to the HTML source code of the page on which you want to embed the widget (if you're using a website builder or content management system, there's usually an option to add custom HTML code).
+4.  Paste the iframe code in the appropriate location within your HTML code.
+5.  Save and publish your webpage.
+
+**Parameter Details:**
+1. token - user token (Optional )
+2. fullscreen - true/false (default false)
+3. placeDetails - true/false (default false)
+4. castShadow - true/false (default false)
+5. rotate - true/false (default true)
+
+Above iframe is for the Ahamedabad, Narendra Modi Stadium, For all other 9 stadium Iframe link is given below.
+
+Sample Code:
+```groovy
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mappls 3D immersive Widget</title>
+</head>
+<body>
+src="https://embed.mappls.com/immersive/5ce166?placeDetails=true&castShadow=false&rotate=true" style="width: 100%; height: 80vh;" title="Mappls 3D Metaverse Maps - Chennai, MA Chidambaram Stadium:" allowfullscreen="">
+
+</iframe>
+</body>
+</html>
+```
+**Sample Output**
+
+![ezgif com-video-to-gif (1)](https://github.com/mappls-api/mapmyindia-api-addendums/assets/59359484/2cd83866-767f-4ec8-ac5c-bad12e1b9343)
+
+To know more on how to create your authorization tokens, please use our authorization token URL. More details available [here](https://developer.mappls.com/mapping/tokenGeneration/).
+
+For inquiries and support, please email us at feedback@mappls.com or apisupport@mappls.com
+
+**List of iFrame Widget for all the Cricket World cup venues:**
+
+**1. Wankhede Stadium**
+
+```groovy 
+<iframe src="https://embed.mappls.com/immersive/e856cd?token=<TOKEN>&placeDetails=true&castShadow=false&rotate=true" width="1000" height="400"></iframe>
+```
+
+**2. Rajiv Gandhi Stadium**
+
+```groovy 
+<iframe src="https://embed.mappls.com/immersive/518as8?token=<TOKEN>&placeDetails=true&castShadow=false&rotate=true" width="1000" height="400"></iframe>
+```
+
+**3. Narendra Modi Stadium**
+```groovy 
+<iframe src="https://embed.mappls.com/immersive/12d1ce?token=<TOKEN>&placeDetails=true&castShadow=false&rotate=true" width="1000" height="400"></iframe>
+```
+
+**4. MCA International Stadium**
+```groovy
+<iframe src="https://embed.mappls.com/immersive/bmovtc?token=<TOKEN>&placeDetails=true&castShadow=false&rotate=true" width="1000" height="400"></iframe>
+```
+
+**5. MA Chidambaram Stadium**
+```groovy
+<iframe src="https://embed.mappls.com/immersive/5f8ta1?token=<TOKEN>&placeDetails=true&castShadow=false&rotate=true" width="1000" height="400"></iframe>
+```
+**6. M Chinnaswamy Stadium**
+```groovy
+<iframe src="https://embed.mappls.com/immersive/527t5s?token=<TOKEN>&placeDetails=true&castShadow=false&rotate=true" width="1000" height="400"></iframe>
+```
+**7. HPCA Stadium**
+```groovy
+<iframe src="https://embed.mappls.com/immersive/bcfsab?token=<TOKEN>&placeDetails=true&castShadow=false&rotate=true" width="1000" height="400"></iframe>
+```
+**8. Eden Gardens**
+```groovy
+<iframe src="https://embed.mappls.com/immersive/1fd4c4?token=<TOKEN>&placeDetails=true&castShadow=false&rotate=true" width="1000" height="400"></iframe>
+```
+**9. BRSABVE Cricket Stadium**
+```groovy
+<iframe src="https://embed.mappls.com/immersive/e3bfwd?token=<TOKEN>&placeDetails=true&castShadow=false&rotate=true" width="1000" height="400"></iframe>
+```
+
+**10. Arun Jaitley Stadium**
+```groovy
+<iframe src="https://embed.mappls.com/immersive/5ce166?token=<TOKEN>&placeDetails=true&castShadow=false&rotate=true" width="1000" height="400"></iframe>
+```
+
+
+
