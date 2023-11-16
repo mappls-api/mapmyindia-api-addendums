@@ -120,20 +120,17 @@ Embed Mappls Immersive & Interative Maps iframe for places on your website by fo
 
 To use the Mappls Immersive & Interative Maps iframe Widget, you need to specify the following URL format:
 ```groovy
-<iframe src="https://embed.mappls.com/immersive/<mapplsPin>?token=<TOKEN>&placeDetails=true&castShadow=false&rotate=true" width="1000" height="1000"></iframe>
+<iframe src="https://embed.mappls.com/immersive/<MAPPLS_PIN>?token=<TOKEN>&placeDetails=true&castShadow=false&rotate=true" width="1000" height="1000"></iframe>
 ```
-1.  Customize the width and height attributes as needed to fit your website's design and layout.
-2.  Copy the entire iframe code provided add the mapplsPin for the required place. Get the mappls pin from mappls.com/get-pin
-3.  Go to the HTML source code of the page on which you want to embed the widget (if you're using a website builder or content management system, there's usually an option to add custom HTML code).
-4.  Paste the iframe code in the appropriate location within your HTML code.
-5.  Save and publish your webpage.
 
 **Parameter Details:**
-1. mapplsPin- Mandatory 
-2. fullscreen - true/false (default false)
-3. placeDetails - true/false (default false)
-4. castShadow - true/false (default false)
-5. rotate - true/false (default true)
+1. ***<MAPPLS_PIN> (Required):*** - Replace this with the unique identifier of the Mappls Pin you want to display details for.
+2. ***Token (Optional):*** - User token for access control.
+3. ***placeDetails (Optional)*** - true/false (default false)
+4. ***castShadow(Optional)*** - true/false (default false)
+5. ***rotate(Optional)*** - true/false (default true)
+
+
 
 **Example**
 
@@ -141,9 +138,17 @@ To use the Mappls Immersive & Interative Maps iframe Widget, you need to specify
 ```groovy
 <iframe src="https://embed.mappls.com/immersive/12d1ce?token=<TOKEN>&placeDetails=true&castShadow=false&rotate=true" width="1000" height="1000"></iframe>
 
+```
+
+1.  Customize the width and height attributes as needed to fit your website's design and layout.
+2.  Copy the entire iframe code provided add the mapplsPin for the required place. Get the mappls pin from mappls.com/get-pin
+3.  Go to the HTML source code of the page on which you want to embed the widget (if you're using a website builder or content management system, there's usually an option to add custom HTML code).
+4.  Paste the iframe code in the appropriate location within your HTML code.
+5.  Save and publish your webpage.
+
 Above iframe is for the Ahamedabad, Narendra Modi Stadium, For all other 9 stadium Iframe link is given below.
 
-Sample Code:
+**Sample Code:**
 ```groovy
 <html lang="en">
 <head>
