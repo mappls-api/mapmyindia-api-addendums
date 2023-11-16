@@ -1,3 +1,4 @@
+
 [<img src="https://cdn.mapmyindia.com/mappls_web/logos/svg/mappls.svg" height="40"/> </p>](https://www.about.mappls.com/api)
 
 
@@ -109,29 +110,36 @@ The Mappls Places Iframe Widget's versatility makes it a valuable tool for any w
 
 ### Introduction
 
-Introducing MapmyIndia's cutting-edge iFrame Embeddable Widget, an **Immersive and 3D metaverse maps** for **Cricket World Cup** venues. Now, you can seamlessly integrate these captivating 3D Metaverse maps into your website with a single line of code, bringing the excitement of cricket's grandest stages directly to your audience. Get ready to engage and delight your users like never before with MapmyIndia's immersive technology.
+Introducing MapmyIndia's cutting-edge iFrame Embeddable Widget, an **Immersive and 3D metaverse maps** for **Cricket World Cup** venues and other important places. Now, you can seamlessly integrate these captivating 3D Metaverse maps into your website with a single line of code. Get ready to engage and delight your users like never before with MapmyIndia's immersive technology.
 
 Let your audience explore the venues at their own pace. They can **zoom in, rotate, and interact with the maps** to get a comprehensive view of the Cricet World Cup Stadiums.
 
-
 **It can be easily embedded on your website by following below steps.**
 
-**Embed Ahmedabad, Narendra Modi Stadium:**
+Embed Mappls Immersive & Interative Maps iframe for places on your website by following the below steps.
+
+To use the Mappls Immersive & Interative Maps iframe Widget, you need to specify the following URL format:
 ```groovy
-<iframe src="https://embed.mappls.com/immersive/12d1ce?token=<TOKEN>&placeDetails=true&castShadow=false&rotate=true" width="1000" height="1000"></iframe>
+<iframe src="https://embed.mappls.com/immersive/<mapplsPin>?token=<TOKEN>&placeDetails=true&castShadow=false&rotate=true" width="1000" height="1000"></iframe>
 ```
 1.  Customize the width and height attributes as needed to fit your website's design and layout.
-2.  Copy the entire iframe code provided by the source website.
+2.  Copy the entire iframe code provided add the mapplsPin for the required place. Get the mappls pin from mappls.com/get-pin
 3.  Go to the HTML source code of the page on which you want to embed the widget (if you're using a website builder or content management system, there's usually an option to add custom HTML code).
 4.  Paste the iframe code in the appropriate location within your HTML code.
 5.  Save and publish your webpage.
 
 **Parameter Details:**
-1. token - user token (Optional )
+1. mapplsPin- Mandatory 
 2. fullscreen - true/false (default false)
 3. placeDetails - true/false (default false)
 4. castShadow - true/false (default false)
 5. rotate - true/false (default true)
+
+**Example**
+
+**Embed Ahmedabad, Narendra Modi Stadium:**
+```groovy
+<iframe src="https://embed.mappls.com/immersive/12d1ce?token=<TOKEN>&placeDetails=true&castShadow=false&rotate=true" width="1000" height="1000"></iframe>
 
 Above iframe is for the Ahamedabad, Narendra Modi Stadium, For all other 9 stadium Iframe link is given below.
 
@@ -208,6 +216,4 @@ For inquiries and support, please email us at feedback@mappls.com or apisupport@
 ```groovy
 <iframe src="https://embed.mappls.com/immersive/5ce166?token=<TOKEN>&placeDetails=true&castShadow=false&rotate=true" width="1000" height="400"></iframe>
 ```
-
-
 
