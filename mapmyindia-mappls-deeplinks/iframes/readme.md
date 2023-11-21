@@ -158,8 +158,7 @@ Above iframe is for the Ahamedabad, Narendra Modi Stadium, For all other 9 stadi
 <title>Mappls 3D immersive Widget</title>
 </head>
 <body>
-src="https://embed.mappls.com/immersive/5ce166?placeDetails=true&castShadow=false&rotate=true" style="width: 100%; height: 80vh;" title="Mappls 3D Metaverse Maps - Chennai, MA Chidambaram Stadium:" allowfullscreen="">
-
+<iframe src="https://embed.mappls.com/immersive/5ce166?placeDetails=true&castShadow=false&rotate=true" style="width: 100%; height: 80vh;" title="Mappls 3D Metaverse Maps - Chennai, MA Chidambaram Stadium:" allowfullscreen="">
 </iframe>
 </body>
 </html>
