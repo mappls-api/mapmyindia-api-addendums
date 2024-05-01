@@ -112,7 +112,7 @@ Integrate the navigation utility to your application to get turn-by-turn directi
 
 ### URL
 ```groovy
-Mappls://navigation?places=xx.xxxxx,yy.yyyyy,{start-name};kk.kkkkk,mm.mmmmm,{destination-name}
+mapmyindia://navigation?places=xx.xxxxx,yy.yyyyy,{start-name};kk.kkkkk,mm.mmmmm,{destination-name}
 ```
 <br>
 
@@ -128,7 +128,7 @@ Mappls://navigation?places=xx.xxxxx,yy.yyyyy,{start-name};kk.kkkkk,mm.mmmmm,{des
 <br>
 
 ```
-Mappls://navigation?places=26.884649,75.801128,Nehru Place;28.566677,77.234995,Mool Chand
+mapmyindia://navigation?places=26.884649,75.801128,Nehru Place;28.566677,77.234995,Mool Chand
 ```
 
 <br><br>
