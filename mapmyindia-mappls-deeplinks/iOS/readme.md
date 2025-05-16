@@ -142,14 +142,14 @@ Use the following deep link URI to launch turn-by-turn navigation directly in th
 
 ### Integration Tips
 <br>
-This URI is intended for **mobile deep linking**, and will only work if the **Mappls app is installed** otherwise please ask the user to download the mappls app.
+This URI is intended for <strong>mobile deep linking</strong>, and will only work if the <strong>Mappls app is installed</strong> otherwise please ask the user to download the mappls app.
 Mappls App package name : `com.mmi.maps`
 
 <br><br>
 
 ### URL Schema
 <br>
-Use this HTTPS link to open navigation in the **browser** or redirect to the app if installed.
+Use this HTTPS link to open navigation in the <strong>browser</strong> or redirect to the app if installed.
 `https://mappls.com/navigation?places=28.612964,77.229463,IndiaGate&isNav=true&mode=biking 
 
 <br><br>
