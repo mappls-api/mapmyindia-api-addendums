@@ -105,35 +105,55 @@ https://mappls.com/corona?containment_zone_gradient,corona_testing_centre,corona
 ### Introduction
 <br>
 
-Integrate the navigation utility to your application to get turn-by-turn directions to a location.
+Launch Turn-by-Turn Navigation with Mappls MapmyIndia Android app. Enable instant navigation to a location using Mappls deep links and universal links. This works seamlessly with the Mappls app on Android
 
 <br>
 
-### URL
-
+### Mappls URI Schema for Navigation
+<br>
+Use the following deep link URI to launch turn-by-turn navigation directly in the Mappls app:
 ```groovy
-com.mapmyindia.move://navigation?d_lat=kk.kkkkk&d_lng=mm.mmmmm&c_lat=xx.xxxxx&c_lng=yy.yyyyy&placeName={destination-name}&{start-name}
+`mappls://navigation?places=xxxx,yyyy,{destinationName}&isNav=true&mode=driving`
 ```
+<br><br>
+
+### Parameters
+1. `places=lat,lng,{name}`: Destination coordinates and optional place name in the format
+2. `isNav=true`: Triggers turn-by-turn navigation mode immediately upon launch
+3. `mode=driving`: (Optional) Navigation mode. Supported values: `driving`, `trucking`, `biking` `walking`
+<br><br>
+
+### Sample calling URI
 <br>
 
+```
+`https://mappls.com/navigation?places=28.612964,77.229463,IndiaGate&isNav=true&mode=driving`
+```
 
-### URL Parameters
-1. `start-name`: Starting location name
-2. `destination-name`: Destination location name
-3. `xx.xxxxx,yy.yyyyy`: Lat/Long pair of starting location
-4. `kk.kkkkk,mm.mmmmm`: Lat/Long pair of destination location
-<br><br>
+<br>
 
 ### Sample calling URL
 <br>
 
 ```
-com.mapmyindia.move://navigation?d_lat=28.566677&d_lng=77.234995&c_lat=28.548348&c_lng=77.251056&placeName=Mool Chand&Nehru Place 
-
+`mappls://navigation?places=28.612964,77.229463,IndiaGate&isNav=true&mode=driving`
 ```
+
+<br>
+
+### Integration Tips
+<br>
+This URI is intended for **mobile deep linking**, and will only work if the **Mappls app is installed** otherwise please ask the user to download the mappls app.
+Mappls App package name : `com.mmi.maps`
 
 <br><br>
 
+### URL Schema
+<br>
+Use this HTTPS link to open navigation in the **browser** or redirect to the app if installed.
+`https://mappls.com/navigation?places=28.612964,77.229463,IndiaGate&isNav=true&mode=biking 
+
+<br><br>
 ## 5.  COVID Safety Check
 <br>
 
