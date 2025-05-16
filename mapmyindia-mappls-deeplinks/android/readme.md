@@ -143,7 +143,7 @@ Use the following deep link URI to launch turn-by-turn navigation directly in th
 
 ### Integration Tips
 <br>
-This URI is intended for **mobile deep linking**, and will only work if the **Mappls app is installed** otherwise please ask the user to download the mappls app.
+This URI is intended for <strong>mobile deep linking</strong>, and will only work if the <strong>Mappls app is installed</strong> otherwise please ask the user to download the mappls app.
 Mappls App package name : `com.mmi.maps`
 
 <br><br>
