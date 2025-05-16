@@ -110,12 +110,11 @@ Launch Turn-by-Turn Navigation with Mappls MapmyIndia Android app. Enable instan
 <br>
 
 ### Mappls URI Schema for Navigation
-<br>
 Use the following deep link URI to launch turn-by-turn navigation directly in the Mappls app:
 ```groovy
 `mappls://navigation?places=xxxx,yyyy,{destinationName}&isNav=true&mode=driving`
 ```
-<br><br>
+<br>
 
 ### Parameters
 1. `places=lat,lng,{name}`: Destination coordinates and optional place name in the format
