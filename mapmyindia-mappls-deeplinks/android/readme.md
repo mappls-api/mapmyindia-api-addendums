@@ -106,30 +106,52 @@ https://mappls.com/corona?containment_zone_gradient,corona_testing_centre,corona
 ### Introduction
 <br>
 
-Integrate the navigation utility to your application to get turn-by-turn directions to a location.
+Launch Turn-by-Turn Navigation with Mappls MapmyIndia Android app. Enable instant navigation to a location using Mappls deep links and universal links. This works seamlessly with the Mappls app on Android
 
 <br>
 
-### URL
+### Mappls URI Schema for Navigation
+Use the following deep link URI to launch turn-by-turn navigation directly in the Mappls app:
 ```groovy
-mapmyindia://navigation?places=xx.xxxxx,yy.yyyyy,{start-name};kk.kkkkk,mm.mmmmm,{destination-name}
+`mappls://navigation?places=xxxx,yyyy,{destinationName}&isNav=true&mode=driving`
 ```
 <br>
 
-
-### URL Parameters
-1. `start-name`: Starting location name
-2. `destination-name`: Destination location name
-3. `xx.xxxxx,yy.yyyyy`: Lat/Long pair of starting location
-4. `kk.kkkkk,mm.mmmmm`: Lat/Long pair of destination location
+### Parameters
+1. `places=lat,lng,{name}`: Destination coordinates and optional place name in the format
+2. `isNav=true`: Triggers turn-by-turn navigation mode immediately upon launch
+3. `mode=driving`: (Optional) Navigation mode. Supported values: `driving`, `trucking`, `biking` `walking`
 <br><br>
+
+### Sample calling URI
+<br>
+
+```
+`https://mappls.com/navigation?places=28.612964,77.229463,IndiaGate&isNav=true&mode=driving`
+```
+
+<br>
 
 ### Sample calling URL
 <br>
 
 ```
-mapmyindia://navigation?places=26.884649,75.801128,Nehru Place;28.566677,77.234995,Mool Chand
+`mappls://navigation?places=28.612964,77.229463,IndiaGate&isNav=true&mode=driving`
 ```
+
+<br>
+
+### Integration Tips
+<br>
+This URI is intended for **mobile deep linking**, and will only work if the **Mappls app is installed** otherwise please ask the user to download the mappls app.
+Mappls App package name : `com.mmi.maps`
+
+<br><br>
+
+### URL Schema
+<br>
+Use this HTTPS link to open navigation in the **browser** or redirect to the app if installed.
+`https://mappls.com/navigation?places=28.612964,77.229463,IndiaGate&isNav=true&mode=biking 
 
 <br><br>
 
